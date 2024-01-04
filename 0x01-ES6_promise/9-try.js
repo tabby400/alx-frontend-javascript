@@ -1,4 +1,4 @@
-//captures the result or an error, and adds a processing message to the queue
+// captures the result or an error, and adds a processing message to the queue
 export default function guardrail(mathFunction) {
   const queue = [];
   try {
